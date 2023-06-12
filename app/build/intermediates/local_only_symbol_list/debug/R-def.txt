@@ -1,7 +1,9 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_launcher_background
 color white
+drawable face_angel
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id buttonNouvelItem
@@ -29,6 +31,7 @@ layout list_items
 layout list_listes
 menu main_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 style Base.Theme.TEA1

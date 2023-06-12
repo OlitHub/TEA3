@@ -52,13 +52,13 @@ class MainActivity : AppCompatActivity() {
 
         val deco = intent.getStringExtra("deco") ?: "1"
 
-        if (deco.toInt() == 1) {
-            val username = sharedPreferences.getString("username", "")
-            val password = sharedPreferences.getString("password", "")
+        val username = sharedPreferences.getString("username", "")
+        val password = sharedPreferences.getString("password", "")
 
-            usernameEditText.setText(username)
-            passwordEditText.setText(password)
+        usernameEditText.setText(username)
+        passwordEditText.setText(password)
 
+        if (deco.toInt() == 1 && username != "" && password != "") {
             authenticateUser(username ?: "", password ?: "")
         }
 

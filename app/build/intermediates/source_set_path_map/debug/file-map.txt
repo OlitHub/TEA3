@@ -31,10 +31,10 @@ com.example.tea1.app-coordinatorlayout-1.1.0-29 C:\Users\oanou\.gradle\caches\tr
 com.example.tea1.app-lifecycle-process-2.4.1-30 C:\Users\oanou\.gradle\caches\transforms-3\ece8607ee63adbf157429617fde0205e\transformed\lifecycle-process-2.4.1\res
 com.example.tea1.app-window-1.0.0-31 C:\Users\oanou\.gradle\caches\transforms-3\f6fef68b9f429682c984de5513102223\transformed\window-1.0.0\res
 com.example.tea1.app-lifecycle-viewmodel-2.5.1-32 C:\Users\oanou\.gradle\caches\transforms-3\fe4a65b3361acffd4bdbddbc35e66471\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.tea1.app-pngs-33 D:\GitHub\TEA2_ANOUFA_MARCHAND\app\build\generated\res\pngs\debug
-com.example.tea1.app-resValues-34 D:\GitHub\TEA2_ANOUFA_MARCHAND\app\build\generated\res\resValues\debug
-com.example.tea1.app-packageDebugResources-35 D:\GitHub\TEA2_ANOUFA_MARCHAND\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.tea1.app-packageDebugResources-36 D:\GitHub\TEA2_ANOUFA_MARCHAND\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.tea1.app-merged_res-37 D:\GitHub\TEA2_ANOUFA_MARCHAND\app\build\intermediates\merged_res\debug
-com.example.tea1.app-debug-38 D:\GitHub\TEA2_ANOUFA_MARCHAND\app\src\debug\res
-com.example.tea1.app-main-39 D:\GitHub\TEA2_ANOUFA_MARCHAND\app\src\main\res
+com.example.tea1.app-pngs-33 D:\GitHub\TEA3\app\build\generated\res\pngs\debug
+com.example.tea1.app-resValues-34 D:\GitHub\TEA3\app\build\generated\res\resValues\debug
+com.example.tea1.app-packageDebugResources-35 D:\GitHub\TEA3\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.tea1.app-packageDebugResources-36 D:\GitHub\TEA3\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.tea1.app-merged_res-37 D:\GitHub\TEA3\app\build\intermediates\merged_res\debug
+com.example.tea1.app-debug-38 D:\GitHub\TEA3\app\src\debug\res
+com.example.tea1.app-main-39 D:\GitHub\TEA3\app\src\main\res
