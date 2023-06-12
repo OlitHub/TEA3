@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/xml_preferences.xml.flat",
+        "source": "com.example.tea1.app-main-39:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/layout_activity_show_list.xml.flat",
+        "source": "com.example.tea1.app-main-39:/layout/activity_show_list.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/menu_main_menu.xml.flat",
+        "source": "com.example.tea1.app-main-39:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/layout_list_items.xml.flat",
+        "source": "com.example.tea1.app-main-39:/layout/list_items.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.example.tea1.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.tea1.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/layout_list_listes.xml.flat",
+        "source": "com.example.tea1.app-main-39:/layout/list_listes.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "com.example.tea1.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/layout_activity_choix_list.xml.flat",
+        "source": "com.example.tea1.app-main-39:/layout/activity_choix_list.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.tea1.app-pngs-33:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.tea1.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/layout_activity_settings.xml.flat",
+        "source": "com.example.tea1.app-main-39:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tea1.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

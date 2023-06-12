@@ -1,5 +1,6 @@
 package com.example.tea1
 
+import android.content.Context
 import com.google.gson.annotations.SerializedName
 import android.view.LayoutInflater
 import android.view.View
@@ -11,12 +12,12 @@ import com.android.volley.toolbox.Volley
 
 data class ListList(
     @SerializedName("id") val id: Int,
-    @SerializedName("name") val name: String?,
+    @SerializedName("label") val label: String?,
 )
 
 data class item(
     @SerializedName("id") val id: Int,
-    @SerializedName("name") val name: String?,
+    @SerializedName("label") val label: String?,
     @SerializedName("url") val url: String?,
     @SerializedName("isChecked") val checked: Boolean
 )
@@ -34,6 +35,12 @@ class ListListAdapter(private val itemList: MutableList<ListList>) : RecyclerVie
     // Méthode pour définir le listener de clic
     fun setOnItemClickListener(listener: OnItemClickListener) {
         onItemClickListener = listener
+    }
+
+    fun updateList(newList: List<ListList>) {
+        itemList.clear()
+        itemList.addAll(newList)
+        notifyDataSetChanged()
     }
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -57,7 +64,7 @@ class ListListAdapter(private val itemList: MutableList<ListList>) : RecyclerVie
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = itemList?.get(position)
-        holder.nameTextView.text = item?.name
+        holder.nameTextView.text = item?.label
     }
 
     override fun getItemCount(): Int {
@@ -65,9 +72,15 @@ class ListListAdapter(private val itemList: MutableList<ListList>) : RecyclerVie
     }
 }
 
-class ItemAdapter(private val items: List<item>, private val listId: Int?) : RecyclerView.Adapter<ItemAdapter.ViewHolder>() {
+class ItemAdapter(private val items: MutableList<item>, val listId: Int = 0) : RecyclerView.Adapter<ItemAdapter.ViewHolder>() {
 
     private lateinit var apiManager: ApiManager
+
+    fun updateList(itemList: MutableList<item>) {
+        items.clear()
+        items.addAll(itemList)
+        notifyDataSetChanged()
+    }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val itemCheckBox: CheckBox = view.findViewById(R.id.itemCheckBox)
@@ -79,17 +92,17 @@ class ItemAdapter(private val items: List<item>, private val listId: Int?) : Rec
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val item = items[position]
-        holder.itemCheckBox.text = item.name
-    //    val context = holder.itemView.context
-    //
-    //    holder.itemCheckBox.setOnCheckedChangeListener {_, isChecked ->
-    //        if(holder.itemCheckBox.isChecked) {
-    //            val requestQueue = Volley.newRequestQueue(context)
-    //            val request = apiManager.checkItemRequest(item.id.toString(), this.listId)
-    //            requestQueue.add(request)
+
+        val item: item = items[position]
+        holder.itemCheckBox.text = item.label
+        holder.itemCheckBox.isChecked = item.checked
+
+    //    holder.itemCheckBox.setOnCheckedChangeListener { _, isChecked ->
+    //        if (isChecked) {
+    //            apiManager.checkItemRequest(item.id.toString(), this.listId)
+    //        } else {
+    //            apiManager.unCheckItemRequest(item.id.toString(), this.listId)
     //        }
-    //
     //    }
     }
 

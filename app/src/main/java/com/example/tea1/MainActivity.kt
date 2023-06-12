@@ -9,7 +9,6 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Bundle
 
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -17,15 +16,8 @@ import androidx.appcompat.app.AppCompatActivity
 
 import android.view.Menu
 import android.view.MenuItem
-import com.android.volley.Request
-import com.android.volley.Response
-import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.google.gson.Gson
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import org.json.JSONObject
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -41,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Initialiser les vues
         usernameEditText = findViewById(R.id.usernameEditText)
         passwordEditText = findViewById(R.id.passwordEditText)
         okButton = findViewById(R.id.okButton)
@@ -55,11 +48,17 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "No network connection available", Toast.LENGTH_SHORT).show()
         }
 
+        // Connexion automatique si l'utilisateur n'arrive pas sur l'application depuis le bouton déconnexion
+
         val deco = intent.getStringExtra("deco") ?: "1"
 
         if (deco.toInt() == 1) {
             val username = sharedPreferences.getString("username", "")
             val password = sharedPreferences.getString("password", "")
+
+            usernameEditText.setText(username)
+            passwordEditText.setText(password)
+
             authenticateUser(username ?: "", password ?: "")
         }
 
@@ -88,12 +87,11 @@ class MainActivity : AppCompatActivity() {
     }
     private fun authenticateUser(username: String, password: String) {
 
-        val requestQueue = Volley.newRequestQueue(this)
         apiManager = ApiManager(this, sharedPreferences)
-
-        val url = "http://tomnab.fr/todo-api/authenticate?user=$username&password=$password"
-        val request = apiManager.makeLoginRequest(url)
-        requestQueue.add(request)
+        // On récupère l'URL de base entrée dans la page de paramètres
+        val baseurl = sharedPreferences.getString("baseurl", "http://tomnab.fr/todo-api/") ?: "http://tomnab.fr/todo-api/"
+        val url = baseurl + "authenticate?user=$username&password=$password"
+        apiManager.makeLoginRequest(url)
         }
 
     private fun isNetworkAvailable(): Boolean {

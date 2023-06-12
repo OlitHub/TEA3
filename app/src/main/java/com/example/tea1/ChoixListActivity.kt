@@ -11,13 +11,9 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.android.volley.toolbox.Volley
-import com.google.gson.Gson
-import com.google.gson.annotations.SerializedName
 
 class ChoixListActivity : AppCompatActivity() {
 
-    private lateinit var pseudo: String
     private lateinit var apiManager: ApiManager
 
 
@@ -26,30 +22,21 @@ class ChoixListActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_choix_list)
 
-        val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-
-        // Afficher la liste des listes de l'utilisateur
-        val requestQueue = Volley.newRequestQueue(this)
-        apiManager = ApiManager(this, sharedPreferences)
-
-        val requestUserLists = apiManager.userListsRequest()
-        requestQueue.add(requestUserLists)
-
-        val userListString: String? = sharedPreferences.getString("userLists", "") ?:""
-
-        val gson = Gson()
-        val listListJson = gson.fromJson(userListString, Array<ListListJson>::class.java)
-        val listList = mutableListOf<ListList>()
-
-        listListJson.forEachIndexed { index, listListJson ->
-            val listItem = ListList(listListJson.id.toInt(), listListJson.name)
-            listList.add(listItem)
-        }
+        // On initialise le RecyclerView avec une liste vide qu'on va changer pour la liste des listes de l'utilisateur une fois que la requête aura abouti
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
-        val adapter = ListListAdapter(listList)
+        val adapter = ListListAdapter(mutableListOf())
         recyclerView.adapter = adapter
+
+        val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
+
+        // Récupérer et afficher la liste des listes de l'utilisateur
+
+        apiManager = ApiManager(this, sharedPreferences)
+        apiManager.userListsRequest { userLists ->
+            adapter.updateList(userLists)
+        }
 
         adapter.setOnItemClickListener(object :
             ListListAdapter.OnItemClickListener {
@@ -68,10 +55,13 @@ class ChoixListActivity : AppCompatActivity() {
         val editTextNouvelleListe: EditText = findViewById(R.id.editTextNouvelleListe)
 
         butNouvelleListe.setOnClickListener {
+            // On ajoute une liste et on met à jour le RecyclerView
             val nouvelleListeName = editTextNouvelleListe.text.toString()
-            val request = apiManager.addListRequest(nouvelleListeName)
-            requestQueue.add(request)
-            recreate()
+            apiManager.addListRequest(nouvelleListeName)
+
+            apiManager.userListsRequest { userLists ->
+                adapter.updateList(userLists)
+            }
         }
     }
 
@@ -91,8 +81,4 @@ class ChoixListActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    data class ListListJson(
-        @SerializedName("id") val id: String,
-        @SerializedName("label") val name: String?
-    )
 }

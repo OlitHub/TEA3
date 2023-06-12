@@ -26,7 +26,7 @@ class SettingsActivity : AppCompatActivity() {
 
         // Récupérer l'URL de base actuelle depuis les préférences
         val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-        val currentBaseUrl = sharedPreferences.getString("base_url", "")
+        val currentBaseUrl = sharedPreferences.getString("base_url", "http://tomnab.fr/todo-api")
         baseUrlEditText.setText(currentBaseUrl)
 
         saveButton.setOnClickListener {

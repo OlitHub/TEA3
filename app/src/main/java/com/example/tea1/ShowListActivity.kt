@@ -11,7 +11,6 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.android.volley.toolbox.Volley
 import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
 
@@ -22,55 +21,43 @@ class ShowListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_show_list)
 
-        // Récupérer les données passées depuis ChoixListActivity
+        // Récupérer les données passées depuis ChoixListActivity (id de la liste cliquée)
         val idList = intent.getStringExtra("id")?.toInt()
-        val recyclerView: RecyclerView = findViewById(R.id.recyclerView2)
-
-        val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-        val gson = Gson()
 
         // Passer l'id de la liste actuelle dans les préférences :
-
+        val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
         val editor: SharedPreferences.Editor = sharedPreferences.edit()
-
         editor.putString("listId", idList.toString())
         editor.apply()
 
-        val requestQueue = Volley.newRequestQueue(this)
-        apiManager = ApiManager(this, sharedPreferences)
+        // Initialisation du recyclerView, on le mettra à jour avec les items de la liste par la suite
 
-        val requestGetItemsList = idList?.let { apiManager.getItemsListRequest(it) }
-        requestQueue.add(requestGetItemsList)
-
-        // Récupérer les items
-
-        val itemListString: String? = sharedPreferences.getString("itemList", "") ?:""
-
-        val itemListJson = gson.fromJson(itemListString, Array<itemListJSON>::class.java)
-        val itemList = mutableListOf<item>()
-
-        itemListJson.forEachIndexed { index, itemListJson ->
-            val listItem = item(itemListJson.id.toInt(), itemListJson.name, itemListJson.url, itemListJson.checked)
-            itemList.add(listItem)
-        }
-
-
-        val adapter = ItemAdapter(itemList, idList)
+        val recyclerView: RecyclerView = findViewById(R.id.recyclerView2)
+        val adapter = ItemAdapter(mutableListOf())
         recyclerView.adapter = adapter
-
         recyclerView.layoutManager = LinearLayoutManager(this)
 
+        // On met à jour le recyclerView avec les items de la liste actuelle
+
+        apiManager = ApiManager(this, sharedPreferences)
+        idList?.let { apiManager.getItemsListRequest(it) { item ->
+            adapter.updateList(item)
+        } }
 
         val butNouvellItem: Button = findViewById(R.id.buttonNouvelItem)
         val editTextNouvellItem: EditText = findViewById(R.id.editTextNouvelItem)
 
         butNouvellItem.setOnClickListener {
+            // On envoie une requête pour afficher l'item puis on envoie une requête pour mettre à jour le recyclerView
             val nouvelItemName = editTextNouvellItem.text.toString()
-            val addItemRequest = apiManager.addListItemRequest(nouvelItemName, idList)
-            requestQueue.add(addItemRequest)
-            recreate() // On attend un peu le temps que l'objet soit ajouté dans la base de données de l'API
+            apiManager.addListItemRequest(nouvelItemName, idList)
+
+            idList?.let { apiManager.getItemsListRequest(it) { item ->
+                adapter.updateList(item)
+            } }
         }
 
     }
@@ -90,12 +77,5 @@ class ShowListActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
-
-    data class itemListJSON(
-        @SerializedName("id") val id: String,
-        @SerializedName("label") val name: String?,
-        @SerializedName("url") val url: String,
-        @SerializedName("checked") val checked: Boolean
-    )
 
 }
