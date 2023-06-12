@@ -31,12 +31,12 @@
 
         <activity
             android:name=".ShowListActivity"
-            android:label="Show List Activity"
+            android:label="To-do list"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 
         <activity
             android:name=".ChoixListActivity"
-            android:label="Choix List Activity"
+            android:label="Listes :"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 
         <activity
