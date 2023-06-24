@@ -3085,6 +3085,7 @@ drawable notification_bg_low_pressed
 drawable notification_bg_normal
 drawable notification_bg_normal_pressed
 drawable notification_icon_background
+drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
@@ -3273,6 +3274,7 @@ id editTextBaseUrl
 id editTextNouvelItem
 id editTextNouvelleListe
 id edit_query
+id edit_text_id
 id elastic
 id embed
 id end
@@ -3308,6 +3310,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id hide_ime_id
 id hideable
 id home
 id homeAsUp
@@ -3425,6 +3428,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id offButton
 id okButton
 id on
 id onInterceptTouchReturnSwipe
@@ -3755,6 +3759,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout expand_button
 layout image_frame
+layout ime_base_split_test_activity
+layout ime_secondary_split_test_activity
 layout list_items
 layout list_listes
 layout m3_alert_dialog

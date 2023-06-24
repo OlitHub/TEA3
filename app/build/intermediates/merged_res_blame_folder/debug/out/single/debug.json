@@ -1,234 +1,150 @@
 [
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-xxxhdpi_face_angel.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-xxxhdpi\\face_angel.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\layout_list_listes.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\layout\\list_listes.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\layout_activity_choix_list.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_choix_list.xml"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\layout_activity_show_list.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_show_list.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-hdpi_face_angel.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-hdpi\\face_angel.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-ldpi_face_angel.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-ldpi\\face_angel.png"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\layout_list_listes.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\list_listes.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-anydpi-v24_face_angel.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-anydpi-v24\\face_angel.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-anydpi-v24_face_angel.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-anydpi-v24\\face_angel.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "com.example.tea1.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.example.tea1.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-xhdpi_face_angel.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-xhdpi\\face_angel.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-xxhdpi_face_angel.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-xxhdpi\\face_angel.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-mdpi_face_angel.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-mdpi\\face_angel.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-mdpi_face_angel.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-mdpi\\face_angel.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\xml\\preferences.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\menu_main_menu.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\menu\\main_menu.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-hdpi_face_angel.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-hdpi\\face_angel.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-xhdpi_face_angel.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-xhdpi\\face_angel.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-xxhdpi_face_angel.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-xxhdpi\\face_angel.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\drawable-xxxhdpi_face_angel.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-0:\\drawable-xxxhdpi\\face_angel.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\layout_activity_show_list.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\layout\\activity_show_list.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\menu\\main_menu.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\layout_list_items.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\list_items.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable-ldpi_face_angel.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-pngs-33:\\drawable-ldpi\\face_angel.png"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\layout\\activity_settings.xml"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\layout_activity_choix_list.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\layout\\activity_choix_list.xml"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\layout_list_items.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\layout\\list_items.xml"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\xml_preferences.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\xml\\preferences.xml"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.tea1.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.tea1.app-main-39:/mipmap-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-37:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-39:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

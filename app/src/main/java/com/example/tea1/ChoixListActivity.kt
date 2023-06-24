@@ -1,12 +1,15 @@
 package com.example.tea1
 
+import DatabaseHelper
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.DatePicker
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -15,6 +18,8 @@ import androidx.recyclerview.widget.RecyclerView
 class ChoixListActivity : AppCompatActivity() {
 
     private lateinit var apiManager: ApiManager
+    private lateinit var dbHelper: DatabaseHelper
+    private lateinit var sharedPreferences: SharedPreferences
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,12 +36,13 @@ class ChoixListActivity : AppCompatActivity() {
 
         val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
 
+        val dbHelper = DatabaseHelper(this)
+
         // Récupérer et afficher la liste des listes de l'utilisateur
 
         apiManager = ApiManager(this, sharedPreferences)
-        apiManager.userListsRequest { userLists ->
-            adapter.updateList(userLists)
-        }
+        val username = sharedPreferences.getString("username", "")
+        adapter.updateList(dbHelper.getListsByUsername(username ?: "vlad"))
 
         adapter.setOnItemClickListener(object :
             ListListAdapter.OnItemClickListener {
@@ -58,10 +64,7 @@ class ChoixListActivity : AppCompatActivity() {
             // On ajoute une liste et on met à jour le RecyclerView
             val nouvelleListeName = editTextNouvelleListe.text.toString()
             apiManager.addListRequest(nouvelleListeName)
-
-            apiManager.userListsRequest { userLists ->
-                adapter.updateList(userLists)
-            }
+            adapter.updateList(dbHelper.getListsByUsername(username ?: "vlad"))
         }
     }
 

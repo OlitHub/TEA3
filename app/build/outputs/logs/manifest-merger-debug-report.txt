@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\oanou\.gradle\caches\transforms-3\fc70e24e60174acdc9a95571d13efd6d\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\oanou\.gradle\caches\transforms-3\d685e8c2251d47a749082b8da15406a7\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\oanou\.gradle\caches\transforms-3\879f7928245f2116eda90be371375ce0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -35,9 +35,9 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\oanou\.gradl
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\fe9f59ae9bc0c42ccc3dabda2400260f\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\oanou\.gradle\caches\transforms-3\e6854e8087d47fa0003f2e9cf58c4006\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\oanou\.gradle\caches\transforms-3\778393de518a8c86dce14c6a397d330d\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\42e3a54f71e477bb631e7a55fd8c1cff\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\65f216c7e67198ce0a9c52130e379630\transformed\core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\004eb615e43baa16f1e2e669ec89e703\transformed\core-ktx-1.12.0-alpha05\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\oanou\.gradle\caches\transforms-3\a5eada4c50af7c1ec15fbe39732c6dca\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\f6890bbee561d2dcd597d60d848e3b24\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\oanou\.gradle\caches\transforms-3\ece8607ee63adbf157429617fde0205e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
@@ -57,35 +57,35 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\oanou\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\e0f9139e481f821743486bc59355181b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\b2a415c274607c3ddd16ba310f864439\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\oanou\.gradle\caches\transforms-3\7f86930abbae77f3c5248e1fd7a48d67\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:8:5-47:19
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:8:5-47:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\oanou\.gradle\caches\transforms-3\d685e8c2251d47a749082b8da15406a7\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\oanou\.gradle\caches\transforms-3\d685e8c2251d47a749082b8da15406a7\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\oanou\.gradle\caches\transforms-3\879f7928245f2116eda90be371375ce0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -94,8 +94,8 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\oanou\.gradle\caches\transfo
 MERGED from [androidx.window:window:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\f6fef68b9f429682c984de5513102223\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\oanou\.gradle\caches\transforms-3\cefd686af609baee560a46e0aa1c693f\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\oanou\.gradle\caches\transforms-3\cefd686af609baee560a46e0aa1c693f\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\oanou\.gradle\caches\transforms-3\ece8607ee63adbf157429617fde0205e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\oanou\.gradle\caches\transforms-3\ece8607ee63adbf157429617fde0205e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\oanou\.gradle\caches\transforms-3\c6e775f87b11fc6e0b62db939208b3fc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -103,75 +103,75 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\oa
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\oanou\.gradle\caches\transforms-3\c1986026facae3f336494cce02a328ab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\oanou\.gradle\caches\transforms-3\c1986026facae3f336494cce02a328ab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:15:9-54
 	tools:targetApi
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:17:9-42
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:17:9-42
 	android:dataExtractionRules
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:11:9-65
 	android:usesCleartextTraffic
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:9:9-44
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:9:9-44
 activity#com.example.tea1.MainActivity
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:20:9-30:20
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:20:9-30:20
 	android:label
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:22:13-35
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:22:13-35
 	android:exported
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:24:13-36
 	android:theme
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:23:13-71
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:23:13-71
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:21:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.example.tea1.ShowListActivity
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:32:9-35:74
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:32:9-35:74
 	android:label
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:34:13-47
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:34:13-39
 	android:theme
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:35:13-71
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:35:13-71
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:33:13-45
 activity#com.example.tea1.ChoixListActivity
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:37:9-40:74
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:37:9-40:74
 	android:label
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:39:13-48
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:39:13-37
 	android:theme
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:40:13-71
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:40:13-71
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:38:13-46
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:38:13-46
 activity#com.example.tea1.SettingsActivity
-ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:42:9-45:73
+ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:42:9-45:73
 	android:label
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:44:13-46
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:44:13-46
 	android:theme
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:45:13-71
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:45:13-71
 	android:name
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:43:13-45
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:43:13-45
 uses-sdk
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\oanou\.gradle\caches\transforms-3\fc70e24e60174acdc9a95571d13efd6d\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\oanou\.gradle\caches\transforms-3\fc70e24e60174acdc9a95571d13efd6d\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\oanou\.gradle\caches\transforms-3\d685e8c2251d47a749082b8da15406a7\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
@@ -234,12 +234,12 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\oanou\.gradle\caches
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\oanou\.gradle\caches\transforms-3\e6854e8087d47fa0003f2e9cf58c4006\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\oanou\.gradle\caches\transforms-3\778393de518a8c86dce14c6a397d330d\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\oanou\.gradle\caches\transforms-3\778393de518a8c86dce14c6a397d330d\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\42e3a54f71e477bb631e7a55fd8c1cff\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\42e3a54f71e477bb631e7a55fd8c1cff\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\65f216c7e67198ce0a9c52130e379630\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\65f216c7e67198ce0a9c52130e379630\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\004eb615e43baa16f1e2e669ec89e703\transformed\core-ktx-1.12.0-alpha05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\004eb615e43baa16f1e2e669ec89e703\transformed\core-ktx-1.12.0-alpha05\AndroidManifest.xml:5:5-44
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\oanou\.gradle\caches\transforms-3\a5eada4c50af7c1ec15fbe39732c6dca\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\oanou\.gradle\caches\transforms-3\a5eada4c50af7c1ec15fbe39732c6dca\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\f6890bbee561d2dcd597d60d848e3b24\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -278,16 +278,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\oanou\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\b2a415c274607c3ddd16ba310f864439\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\oanou\.gradle\caches\transforms-3\7f86930abbae77f3c5248e1fd7a48d67\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\oanou\.gradle\caches\transforms-3\7f86930abbae77f3c5248e1fd7a48d67\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-		ADDED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
-		INJECTED from D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\f6fef68b9f429682c984de5513102223\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required
@@ -321,25 +321,25 @@ ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\oanou\.gradle\caches\transfor
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\oanou\.gradle\caches\transforms-3\cefd686af609baee560a46e0aa1c693f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:23:9-81
 permission#com.example.tea1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:26:22-94
 uses-permission#com.example.tea1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\oanou\.gradle\caches\transforms-3\ece8607ee63adbf157429617fde0205e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 	android:value

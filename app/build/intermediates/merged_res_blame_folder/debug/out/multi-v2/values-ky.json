@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tea1.app-mergeDebugResources-35:/values-ky/values-ky.xml",
+            "outputFile": "com.example.tea1.app-mergeDebugResources-2:/values-ky/values-ky.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\e2ffddf3336e819f1ca99f4ed00763fd\\transformed\\core-1.10.1\\res\\values-ky\\values-ky.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,155,257,360,467,571,675,786",
-                        "endColumns": "99,101,102,106,103,103,110,100",
-                        "endOffsets": "150,252,355,462,566,670,781,882"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,107",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3505,3605,3707,3810,3917,4021,4125,9223",
-                        "endColumns": "99,101,102,106,103,103,110,100",
-                        "endOffsets": "3600,3702,3805,3912,4016,4120,4231,9319"
-                    }
-                },
                 {
                     "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\d685e8c2251d47a749082b8da15406a7\\transformed\\material-1.9.0\\res\\values-ky\\values-ky.xml",
                     "from": {
@@ -71,6 +54,23 @@
                         "startOffsets": "315,426,535,647,732,837,954,1033,1111,1202,1295,1390,1484,1584,1677,1772,1867,1958,2049,2130,2236,2341,2439,2546,2649,2764,2925,9141",
                         "endColumns": "110,108,111,84,104,116,78,77,90,92,94,93,99,92,94,94,90,90,80,105,104,97,106,102,114,160,101,81",
                         "endOffsets": "421,530,642,727,832,949,1028,1106,1197,1290,1385,1479,1579,1672,1767,1862,1953,2044,2125,2231,2336,2434,2541,2644,2759,2920,3022,9218"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\b561082ce0566476d97b8894e2d23616\\transformed\\core-1.12.0-alpha05\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,257,360,467,571,675,786",
+                        "endColumns": "99,101,102,106,103,103,110,100",
+                        "endOffsets": "150,252,355,462,566,670,781,882"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,107",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3505,3605,3707,3810,3917,4021,4125,9223",
+                        "endColumns": "99,101,102,106,103,103,110,100",
+                        "endOffsets": "3600,3702,3805,3912,4016,4120,4231,9319"
                     }
                 }
             ]

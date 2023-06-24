@@ -1,26 +1,30 @@
 [
     {
-        "merged": "com.example.tea1.app-mergeDebugResources-36:/layout/activity_show_list.xml",
-        "source": "com.example.tea1.app-main-39:/layout/activity_show_list.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-mergeDebugResources-3:\\layout\\list_items.xml",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\list_items.xml"
     },
     {
-        "merged": "com.example.tea1.app-mergeDebugResources-36:/layout/activity_choix_list.xml",
-        "source": "com.example.tea1.app-main-39:/layout/activity_choix_list.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-mergeDebugResources-3:\\layout\\activity_show_list.xml",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_show_list.xml"
     },
     {
-        "merged": "com.example.tea1.app-mergeDebugResources-36:/layout/list_items.xml",
-        "source": "com.example.tea1.app-main-39:/layout/list_items.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-mergeDebugResources-3:\\layout\\list_listes.xml",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\list_listes.xml"
     },
     {
-        "merged": "com.example.tea1.app-mergeDebugResources-36:/layout/list_listes.xml",
-        "source": "com.example.tea1.app-main-39:/layout/list_listes.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-mergeDebugResources-3:\\layout\\activity_choix_list.xml",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_choix_list.xml"
     },
     {
-        "merged": "com.example.tea1.app-mergeDebugResources-36:/layout/activity_main.xml",
-        "source": "com.example.tea1.app-main-39:/layout/activity_main.xml"
+        "merged": "com.example.tea1.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.tea1.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.tea1.app-mergeDebugResources-36:/layout/activity_settings.xml",
-        "source": "com.example.tea1.app-main-39:/layout/activity_settings.xml"
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-mergeDebugResources-3:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\oanou\\.gradle\\daemon\\8.0\\com.example.tea1.app-main-6:\\layout\\activity_main.xml"
     }
 ]

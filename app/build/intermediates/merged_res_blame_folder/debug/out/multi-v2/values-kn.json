@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tea1.app-mergeDebugResources-35:/values-kn/values-kn.xml",
+            "outputFile": "com.example.tea1.app-mergeDebugResources-2:/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\d685e8c2251d47a749082b8da15406a7\\transformed\\material-1.9.0\\res\\values-kn\\values-kn.xml",
@@ -40,23 +40,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\e2ffddf3336e819f1ca99f4ed00763fd\\transformed\\core-1.10.1\\res\\values-kn\\values-kn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,256,357,463,564,672,800",
-                        "endColumns": "97,102,100,105,100,107,127,100",
-                        "endOffsets": "148,251,352,458,559,667,795,896"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,107",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3532,3630,3733,3834,3940,4041,4149,9304",
-                        "endColumns": "97,102,100,105,100,107,127,100",
-                        "endOffsets": "3625,3728,3829,3935,4036,4144,4272,9400"
-                    }
-                },
-                {
                     "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\59d801b6948343e9d17fe122ddef7d10\\transformed\\preference-1.2.0\\res\\values-kn\\values-kn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
@@ -71,6 +54,23 @@
                         "startOffsets": "4582,4715,8913,9072,9405,9574,9654",
                         "endColumns": "69,85,76,148,168,79,76",
                         "endOffsets": "4647,4796,8985,9216,9569,9649,9726"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\b561082ce0566476d97b8894e2d23616\\transformed\\core-1.12.0-alpha05\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,357,463,564,672,800",
+                        "endColumns": "97,102,100,105,100,107,127,100",
+                        "endOffsets": "148,251,352,458,559,667,795,896"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,107",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3532,3630,3733,3834,3940,4041,4149,9304",
+                        "endColumns": "97,102,100,105,100,107,127,100",
+                        "endOffsets": "3625,3728,3829,3935,4036,4144,4272,9400"
                     }
                 }
             ]

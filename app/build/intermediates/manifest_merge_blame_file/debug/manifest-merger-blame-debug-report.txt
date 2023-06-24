@@ -6,98 +6,98 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+8-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml
+9-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:5:5-79
-11-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:5:22-76
+11-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:6:5-67
-12-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <permission
-14-->[androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+14-->[androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:22:5-24:47
 15        android:name="com.example.tea1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+15-->[androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+16-->[androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:24:9-44
 17
 18    <uses-permission android:name="com.example.tea1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+18-->[androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:8:5-47:19
+20-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:8:5-47:19
 21        android:allowBackup="true"
-21-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:10:9-35
+21-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:10:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.10.1] C:\Users\oanou\.gradle\caches\transforms-3\e2ffddf3336e819f1ca99f4ed00763fd\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.12.0-alpha05] C:\Users\oanou\.gradle\caches\transforms-3\b561082ce0566476d97b8894e2d23616\transformed\core-1.12.0-alpha05\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:11:9-65
+23-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:11:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:12:9-54
+26-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:12:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:13:9-43
+27-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:13:9-43
 28        android:label="@string/app_name"
-28-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:14:9-41
+28-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:14:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:15:9-54
+29-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:15:9-54
 30        android:supportsRtl="true"
-30-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:16:9-35
+30-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:16:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.TEA1"
-32-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:17:9-42
+32-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:17:9-42
 33        android:usesCleartextTraffic="true" >
-33-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:9:9-44
+33-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:9:9-44
 34        <activity
-34-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:20:9-30:20
+34-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:20:9-30:20
 35            android:name="com.example.tea1.MainActivity"
-35-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:21:13-41
+35-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:21:13-41
 36            android:exported="true"
-36-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:24:13-36
+36-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:24:13-36
 37            android:label="TEAPMR"
-37-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:22:13-35
+37-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:22:13-35
 38            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-38-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:23:13-71
+38-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:23:13-71
 39            <intent-filter>
-39-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:25:13-29:29
+39-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:25:13-29:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:26:17-69
-40-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:26:25-66
+40-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:26:17-69
+40-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:26:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:28:17-77
-42-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:28:27-74
+42-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:28:17-77
+42-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:28:27-74
 43            </intent-filter>
 44        </activity>
 45        <activity
-45-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:32:9-35:74
+45-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:32:9-35:74
 46            android:name="com.example.tea1.ShowListActivity"
-46-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:33:13-45
-47            android:label="Show List Activity"
-47-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:34:13-47
+46-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:33:13-45
+47            android:label="To-do list"
+47-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:34:13-39
 48            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-48-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:35:13-71
+48-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:35:13-71
 49        <activity
-49-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:37:9-40:74
+49-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:37:9-40:74
 50            android:name="com.example.tea1.ChoixListActivity"
-50-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:38:13-46
-51            android:label="Choix List Activity"
-51-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:39:13-48
+50-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:38:13-46
+51            android:label="Listes :"
+51-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:39:13-37
 52            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-52-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:40:13-71
+52-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:40:13-71
 53        <activity
-53-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:42:9-45:73
+53-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:42:9-45:73
 54            android:name="com.example.tea1.SettingsActivity"
-54-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:43:13-45
+54-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:43:13-45
 55            android:label="Settings Activity"
-55-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:44:13-46
+55-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:44:13-46
 56            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-56-->D:\GitHub\TEA3\app\src\main\AndroidManifest.xml:45:13-71
+56-->C:\AndroidStudioProjects\TEA3\app\src\main\AndroidManifest.xml:45:13-71
 57
 58        <uses-library
 58-->[androidx.window:window:1.0.0] C:\Users\oanou\.gradle\caches\transforms-3\f6fef68b9f429682c984de5513102223\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40

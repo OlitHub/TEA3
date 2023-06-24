@@ -1,5 +1,6 @@
 package com.example.tea1
 
+import DatabaseHelper
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
@@ -18,6 +19,8 @@ import com.google.gson.annotations.SerializedName
 class ShowListActivity : AppCompatActivity() {
 
     private lateinit var apiManager: ApiManager
+    private lateinit var dbHelper: DatabaseHelper
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +36,8 @@ class ShowListActivity : AppCompatActivity() {
         editor.putString("listId", idList.toString())
         editor.apply()
 
+        val username = sharedPreferences.getString("username", "")
+
         // Initialisation du recyclerView, on le mettra à jour avec les items de la liste par la suite
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView2)
@@ -42,10 +47,9 @@ class ShowListActivity : AppCompatActivity() {
 
         // On met à jour le recyclerView avec les items de la liste actuelle
 
+        dbHelper = DatabaseHelper(this)
         apiManager = ApiManager(this, sharedPreferences)
-        idList?.let { apiManager.getItemsListRequest(it) { item ->
-            adapter.updateList(item)
-        } }
+        adapter.updateList(dbHelper.getTodosByListId(idList ?: 0))
 
         val butNouvellItem: Button = findViewById(R.id.buttonNouvelItem)
         val editTextNouvellItem: EditText = findViewById(R.id.editTextNouvelItem)
@@ -54,10 +58,10 @@ class ShowListActivity : AppCompatActivity() {
             // On envoie une requête pour afficher l'item puis on envoie une requête pour mettre à jour le recyclerView
             val nouvelItemName = editTextNouvellItem.text.toString()
             apiManager.addListItemRequest(nouvelItemName, idList)
+            apiManager.updateDatabaseRequest(username ?: "tom")
 
-            idList?.let { apiManager.getItemsListRequest(it) { item ->
-                adapter.updateList(item)
-            } }
+            adapter.updateList(dbHelper.getTodosByListId(idList ?: 0))
+
         }
 
     }

@@ -22,8 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/usernameLabel"
         android:layout_marginTop="8dp"
+        android:hint="Enter your username"
         android:inputType="text"
-        android:hint="Enter your username" />
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/passwordLabel"
@@ -40,8 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/passwordLabel"
         android:layout_marginTop="8dp"
+        android:hint="Enter your password"
         android:inputType="textPassword"
-        android:hint="Enter your password" />
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/okButton"
@@ -51,6 +53,20 @@
         android:layout_marginTop="16dp"
         android:enabled="false"
         android:text="OK" />
+
+    <Button
+        android:id="@+id/offButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/okButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:enabled="false"
+        android:text="Go Offline" />
+
 
 </RelativeLayout>
 

@@ -16,6 +16,7 @@ id editTextNouvelleListe
 id itemCheckBox
 id menu_preferences
 id nameTextView
+id offButton
 id okButton
 id passwordEditText
 id passwordLabel

@@ -1,5 +1,6 @@
 package com.example.tea1
 
+import DatabaseHelper
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
@@ -14,7 +15,7 @@ import com.google.gson.reflect.TypeToken
 class ApiManager(private val context: Context, private val preferences: SharedPreferences) {
 
     val baseurl = preferences.getString("base_url", "http://tomnab.fr/todo-api/")
-
+    private lateinit var dbHelper: DatabaseHelper
     fun makeLoginRequest(url: String) {
 
         val request = JsonObjectRequest(
@@ -70,8 +71,9 @@ class ApiManager(private val context: Context, private val preferences: SharedPr
 
     }
 
-    fun userListsRequest(callback: (List<ListList>) -> Unit) {
+    fun userListsRequest() {
         val url = baseurl + "lists"
+        dbHelper = DatabaseHelper(context)
 
         val request = object: JsonObjectRequest( Method.GET, url, null,
             { response ->
@@ -80,22 +82,20 @@ class ApiManager(private val context: Context, private val preferences: SharedPr
 
                 val gson = Gson()
                 val userLists: List<item> = gson.fromJson(jsonString, object : TypeToken<List<item>>() {}.type)
+                val username = preferences.getString("username", "")
 
                 val listList = mutableListOf<ListList>()
 
                 userLists.forEachIndexed { _, userLists ->
-                    val listItem = ListList(userLists.id.toInt(), userLists.label)
+                    val listItem = ListList(userLists.id, userLists.label)
+                    dbHelper.insertList(username ?: "vlad", userLists.id, userLists.label)
                     listList.add(listItem)
                 }
 
                 saveListToPreferences(userLists)
 
-                callback(listList)
-
-                Toast.makeText(context, "Listes récupérées", Toast.LENGTH_LONG).show()
 
             }, { _ ->
-                Toast.makeText(context, "Erreur lors de la récupération des listes", Toast.LENGTH_LONG).show()
 
             }) {
             override fun getHeaders(): MutableMap<String, String> {
@@ -118,8 +118,9 @@ class ApiManager(private val context: Context, private val preferences: SharedPr
         editor.apply()
     }
 
-    fun getItemsListRequest(listId: Int, callback: (MutableList<item>) -> Unit) {
+    fun getItemsListRequest(listId: Int) {
         val url = baseurl + "lists/$listId/items"
+        dbHelper = DatabaseHelper(context)
 
         val request = object: JsonObjectRequest(
             Method.GET, url, null, { response ->
@@ -132,12 +133,12 @@ class ApiManager(private val context: Context, private val preferences: SharedPr
 
                 saveItemListToPreferences(itemList)
 
-                callback(itemList)
+                for (item in itemList) {
+                    dbHelper.insertTodo(listId, item.id, item.label ?: "", item.url, item.checked)
+                }
 
-                Toast.makeText(context, "Items récupérés", Toast.LENGTH_LONG).show()
 
             }, { _ ->
-                Toast.makeText(context, "Erreur lors de la récupération des items", Toast.LENGTH_LONG).show()
 
             }) {
             override fun getHeaders(): MutableMap<String, String> {
@@ -183,6 +184,39 @@ class ApiManager(private val context: Context, private val preferences: SharedPr
 
         Volley.newRequestQueue(context).add(request)
 
+    }
+
+    fun updateDatabaseRequest(username: String) {
+            val url = baseurl + "lists"
+            dbHelper = DatabaseHelper(context)
+
+            val request = object: JsonObjectRequest( Method.GET, url, null,
+                { response ->
+                    val responseList = response.getJSONArray("lists")
+                    val jsonString = responseList.toString()
+
+                    val gson = Gson()
+                    val userLists: List<item> = gson.fromJson(jsonString, object : TypeToken<List<item>>() {}.type)
+
+                    userLists.forEachIndexed { _, userLists ->
+                        dbHelper.insertList(username, userLists.id, userLists.label)
+                        getItemsListRequest(userLists.id)
+                    }
+
+                    Toast.makeText(context, "Base de donnée à jour", Toast.LENGTH_LONG).show()
+
+                }, { _ ->
+                    Toast.makeText(context, "Erreur lors de la mise à jour de la base de données", Toast.LENGTH_LONG).show()
+
+                }) {
+                override fun getHeaders(): MutableMap<String, String> {
+                    val headers = HashMap<String, String>()
+                    headers["hash"] = preferences.getString("token", "")!!
+                    return headers
+                }
+            }
+
+            Volley.newRequestQueue(context).add(request)
     }
 
     fun checkItemRequest(idItem: String, idList: Int?) {

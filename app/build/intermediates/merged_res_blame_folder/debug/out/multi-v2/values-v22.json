@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tea1.app-mergeDebugResources-35:/values-v22/values-v22.xml",
+            "outputFile": "com.example.tea1.app-mergeDebugResources-2:/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "C:\\Users\\oanou\\.gradle\\caches\\transforms-3\\6508a19c594a3c87261d17305045f64d\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",

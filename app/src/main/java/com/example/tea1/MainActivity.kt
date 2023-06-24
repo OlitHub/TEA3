@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var usernameEditText: EditText
     private lateinit var passwordEditText: EditText
     private lateinit var okButton: Button
+    private lateinit var offButton: Button
 
     private lateinit var sharedPreferences: SharedPreferences
     private lateinit var apiManager: ApiManager
@@ -37,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         usernameEditText = findViewById(R.id.usernameEditText)
         passwordEditText = findViewById(R.id.passwordEditText)
         okButton = findViewById(R.id.okButton)
+        offButton = findViewById(R.id.offButton)
 
         // Initialiser les SharedPreferences et l'API service
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
@@ -45,6 +47,7 @@ class MainActivity : AppCompatActivity() {
         if (isNetworkAvailable()) {
             okButton.isEnabled = true
         } else {
+            offButton.isEnabled = true
             Toast.makeText(this, "No network connection available", Toast.LENGTH_SHORT).show()
         }
 
@@ -83,6 +86,28 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        offButton.setOnClickListener {
+
+            val username = usernameEditText.text.toString()
+            val password = passwordEditText.text.toString()
+
+            // Enregistrer username et password dans les préférences :
+
+            val editor: SharedPreferences.Editor = sharedPreferences.edit()
+
+            editor.putString("username", username)
+            editor.putString("password", password)
+            editor.apply()
+
+            if (username.isEmpty() || password.isEmpty()) {
+                Toast.makeText(this, "Please enter username and password", Toast.LENGTH_SHORT).show()
+            } else {
+                val intent = Intent(this, ChoixListActivity::class.java)
+                this.startActivity(intent)
+                this.finish()
+            }
+        }
+
 
     }
     private fun authenticateUser(username: String, password: String) {
@@ -92,6 +117,7 @@ class MainActivity : AppCompatActivity() {
         val baseurl = sharedPreferences.getString("baseurl", "http://tomnab.fr/todo-api/") ?: "http://tomnab.fr/todo-api/"
         val url = baseurl + "authenticate?user=$username&password=$password"
         apiManager.makeLoginRequest(url)
+        apiManager.updateDatabaseRequest(username)
         }
 
     private fun isNetworkAvailable(): Boolean {
